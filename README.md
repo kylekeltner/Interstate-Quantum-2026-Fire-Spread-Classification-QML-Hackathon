@@ -6,6 +6,11 @@ dependencies and rebuilds all intermediate results. No previous notebook,
 data folder, presentation PDF, satellite image, API key, or account for a
 quantum computer is needed.
 
+This is a copy of the edited `LA_County_Quantum_Geo_4Q_Physical_Simulation.ipynb`.
+Both filenames run independently. Only the notebook is required; this README
+is optional. Output files are created under `quantum_geo_run/` in the current
+working folder, which must be writable.
+
 ## View the saved figures
 
 The notebook includes saved maps, charts, tables, and compact animations from
