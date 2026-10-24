@@ -6,6 +6,21 @@ dependencies and rebuilds all intermediate results. No previous notebook,
 data folder, presentation PDF, satellite image, API key, or account for a
 quantum computer is needed.
 
+## View the saved figures
+
+The notebook includes saved maps, charts, tables, and compact animations from
+the verified default run. The first maps appear near the top, before the setup
+code. Open the notebook normally to view them; a new simulation is not required.
+On GitHub, select **Preview**, not **Code** or **Raw**. In VS Code, use **Open
+With → Jupyter Notebook** if the file opens as JSON text.
+
+The long encoded literal in the bundled-data cell is the compressed KML input.
+It is not a result or an error. That cell is collapsed in compatible notebook
+editors; GitHub may still show its source. Live sliders require Run All, while
+saved PNG figures and GIF previews can be viewed without executing Python.
+The bundled GIFs contain every hourly frame at a smaller display size; Run All
+regenerates the full-resolution animations and refreshes the overview maps.
+
 ## Run from GitHub with Google Colab
 
 1. Upload `LA_County_Quantum_Geo.ipynb` to your GitHub repository. The other
@@ -104,5 +119,6 @@ forecast window, not a declaration of safety.
 
 You can share just the `.ipynb`. Include this README for convenient instructions.
 The supplied `.gitignore` excludes generated results and local environments.
-Clear notebook outputs before committing a rerun to keep the repository small.
-The clean notebook distributed here already has its outputs cleared.
+Keep the saved figure outputs when uploading if readers should see results
+without running code. This packaged copy retains PNG figures and compact GIF
+previews, while omitting installation logs and inactive widget state.
